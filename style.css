@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.promo{
+    display: flex;
+    background-color: #0d0d0d;
+    color: white;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo p{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border: #0d0d0d 1px solid;
+}
+
+.container img{
+    height: 50px;
+}
+
+.btn-hamburguer{
+    border: none;
+    background-color: white;
+
+    cursor: pointer;
+
+}
